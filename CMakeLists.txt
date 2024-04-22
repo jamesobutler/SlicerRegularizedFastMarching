@@ -4,12 +4,12 @@ project(RegularizedFastMarching)
 
 #-----------------------------------------------------------------------------
 # Extension meta-information
-set(EXTENSION_HOMEPAGE "https://www.slicer.org/wiki/Documentation/Nightly/Extensions/RegularizedFastMarching")
+set(EXTENSION_HOMEPAGE "https://github.com/jamesobutler/SlicerRegularizedFastMarching#readme")
 set(EXTENSION_CATEGORY "Segmentation")
-set(EXTENSION_CONTRIBUTORS "Aldrick FAURE (IMT)")
-set(EXTENSION_DESCRIPTION "This module performs a regularized fast marching segmentation on volumes. Seeds can be set manually or from file. Seeds label can be set from csv file.")
-set(EXTENSION_ICONURL "https://raw.githubusercontent.com/AldrickF/SlicerRegularizedFastMarching/main/RegularizedFastMarching/Resources/Icons/RegularizedFastMarching.png")
-set(EXTENSION_SCREENSHOTURLS "https://raw.githubusercontent.com/AldrickF/SlicerRegularizedFastMarching/main/Docs/SlicerRFM_README_Fig3.png https://raw.githubusercontent.com/AldrickF/SlicerRegularizedFastMarching/main/Docs/SlicerRFM_README_Fig2.png https://raw.githubusercontent.com/AldrickF/SlicerRegularizedFastMarching/main/Docs/SlicerRFM_README_Fig4.png")
+set(EXTENSION_CONTRIBUTORS "Aldrick FAURE, Sandra LEBRETON, Laurent RISSER (CNRS, Toulouse Mathematics Institute / 3IA ANITI), Soleakhena KEN (INSERM, Toulouse University Cancer Institute)")
+set(EXTENSION_DESCRIPTION "The RegularizedFastMarching extension in Slicer facilitates efficient semi-automatic segmentation of 3D medical images through the application of regularized fast marching algorithms. Users can manually place seeds or import them from a file, and customize seed labels via CSV files.")
+set(EXTENSION_ICONURL "https://raw.githubusercontent.com/jamesobutler/SlicerRegularizedFastMarching/main/RegularizedFastMarching/Resources/Icons/RegularizedFastMarching.png")
+set(EXTENSION_SCREENSHOTURLS "https://raw.githubusercontent.com/jamesobutler/SlicerRegularizedFastMarching/main/Docs/SlicerRFM_README_Fig3.png https://raw.githubusercontent.com/jamesobutler/SlicerRegularizedFastMarching/main/Docs/SlicerRFM_README_Fig2.png https://raw.githubusercontent.com/jamesobutler/SlicerRegularizedFastMarching/main/Docs/SlicerRFM_README_Fig4.png")
 set(EXTENSION_DEPENDS "NA") # Specified as a list or "NA" if no dependencies
 
 #-----------------------------------------------------------------------------
